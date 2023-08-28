@@ -1,0 +1,28 @@
+.Business {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.Business h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.businessInformation .businessAddress,
+.businessInformation .businessReviews {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.businessAddress p,
+.businessAddress p {
+    margin: 0;
+    padding: 0;
+}
