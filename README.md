@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+Ravenous Project
+================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my Ravenous project! This is a web application built with React that allows users to search for businesses and display a list of results based on their search criteria. This project utilizes the Yelp API to fetch business data.
 
-## Available Scripts
+Table of Contents
+-----------------
 
-In the project directory, you can run:
+-   [Technologies Used]
+-   [Installation]
+-   [Features]
+-   [Usage]
+-   [Contributing]
+-   [License]
 
-### `npm start`
+Technologies Used
+-----------------
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project utilizes the following technologies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   React
+-   CSS Modules
+-   Yelp API
 
-### `npm test`
+Installation
+------------
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project locally, follow these steps:
 
-### `npm run build`
+1.  Clone this repository to your local machine using `git clone`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2.  Install the required dependencies by running:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    bashCopy code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    `npm install`
 
-### `npm run eject`
+3.  Set up a Yelp API Key:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    -   Sign up for a Yelp Developer account and create an application to obtain an API key.
+    -   Create a `.env` file in the project directory and add your Yelp API key as follows:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+        envCopy code
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+        `REACT_APP_YELP_API_KEY=your-api-key-here`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4.  Start the development server:
 
-## Learn More
+    bashCopy code
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    `npm start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    This will run the app in development mode. You can access it at [http://localhost:3000](http://localhost:3000/) in your web browser.
 
-### Code Splitting
+Features
+--------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-   Search for Businesses: Enter a search term, location, and sort option to find businesses that match your criteria.
+-   Display Business Results: View a list of businesses based on your search.
+-   Interactive User Interface: The app provides an easy-to-use interface for searching and viewing business information.
 
-### Analyzing the Bundle Size
+Usage
+-----
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1.  Visit the web application's URL after starting the development server.
 
-### Making a Progressive Web App
+2.  Enter a search term (e.g., "restaurants"), location (e.g., "New York"), and select a sorting option.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3.  Click the "Let's Go" button to initiate the search.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4.  Explore the list of businesses that match your search criteria.
