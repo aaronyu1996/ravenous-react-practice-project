@@ -1,12 +1,12 @@
 import React from "react";
 import Business from "../Business/Business";
-import styles from "./BusinessList.css";
+import styles from "./BusinessList.module.css";
 
 function BusinessList({ businesses }) {
     return (
-      <div>
+      <div className={styles.BusinessList}>
         {businesses.map((business) => (
-          <Business key={business.id} business={business} />
+         <Business key={business.name} business={business} />
         ))}
       </div>
     );
