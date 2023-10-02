@@ -31,8 +31,6 @@ To run this project locally, follow these steps:
 
 2.  Install the required dependencies by running:
 
-    bashCopy code
-
     `npm install`
 
 3.  Set up a Yelp API Key:
@@ -40,13 +38,9 @@ To run this project locally, follow these steps:
     -   Sign up for a Yelp Developer account and create an application to obtain an API key.
     -   Create a `.env` file in the project directory and add your Yelp API key as follows:
 
-        envCopy code
-
         `REACT_APP_YELP_API_KEY=your-api-key-here`
 
 4.  Start the development server:
-
-    bashCopy code
 
     `npm start`
 
